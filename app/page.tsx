@@ -1,7 +1,7 @@
 "use client";
 import Head from "next/head";
 import Nav from "@/components/Nav";
-import ExpCard from "@/components/ExpCards";
+import ExpCard from "@/components/Experience";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
