@@ -24,7 +24,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
         <a
-          href="mailto:itssiemba@outlook.com"
+          href="mailto:sales@siemba.works"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
