@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 const jobProjects = [
   {
@@ -26,7 +27,22 @@ const jobProjects = [
     link: "https://laintelligence.netlify.app/",
   },
   {
-    imagePath: "/journal.png",
+    imagePath: "/meme.png",
+    title: "Meme Generator",
+    description:
+      "A Travel App built with React and Next.JS with local destinations",
+    skills: [
+      "Next.js",
+      "Typescript",
+      "JavaScript",
+      "React",
+      "Vercel",
+      "Figma",
+    ],
+    link: "https://simba-meme.netlify.app/",
+  },
+  {
+    imagePath: "/Travel2.jpg",
     title: "Local Travel App",
     description:
       "A Travel App built with React and Next.JS with local destinations",
@@ -41,7 +57,7 @@ const jobProjects = [
     link: "https://simba-s-t-journal.vercel.app/",
   },
   {
-    imagePath: "/tenZ.png",
+    imagePath: "/Tenzi-2.jpg",
     title: "Tenzies Game",
     description:
       "A Tenzies Game built with React and Next.JS",
@@ -96,6 +112,17 @@ export default function Projects() {
           </a>
         ))}
       </>
+            <div className="lg:px-12 mt-12">
+        <a
+          className="inline-flex items-center font-medium leading-tight text-foreground group"
+          href="https://github.com/siemba-blessed"
+        >
+          <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
+            View Github Projects
+          </span>
+          <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
+        </a>
+      </div>
     </section>
   );
 }

@@ -37,7 +37,7 @@ export default function About() {
             target="blank"
             rel="noopener noreferrer"
           >
-            11 websites and 5 Webapps
+            11 Websites and 5 Webapps
           </a>.{" "}
         </p>
         <p className="text-start  text-muted-foreground lg:px-6">
