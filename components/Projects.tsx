@@ -30,7 +30,7 @@ const jobProjects = [
     imagePath: "/meme.png",
     title: "Meme Generator",
     description:
-      "A Travel App built with React and Next.JS with local destinations",
+      "A Random Meme Generator that fetches random images from an API server",
     skills: [
       "Next.js",
       "Typescript",
