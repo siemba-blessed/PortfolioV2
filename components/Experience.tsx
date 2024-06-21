@@ -45,11 +45,10 @@ const jobPositions = [
       "Stakeholder Management",
       "Data Management",
       "Software Maintenance",
-      "Balancing Part-Time Responsibilities",
     ],
   },
   {
-    timeline: "Nov 2013 - May 2014",
+    timeline: "Nov 2018 - Sep 2021",
     currentPosition: "Customer Experience Officer",
     place: "Netone Zimbabwe",
     previousPositions: [""],
